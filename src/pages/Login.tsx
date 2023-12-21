@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 
@@ -151,9 +151,12 @@ export default function Login() {
             >
               Sign In
             </button>
-            <button className="shadow bg-blue-900 hover:bg-blue-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-3 rounded w-[370px] ">
-              Home Page
-            </button>
+            <Link to="/">
+              <button className="shadow bg-blue-900 hover:bg-blue-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-3 rounded w-[370px] ">
+                Home Page
+              </button>
+            </Link>
+
             <GoogleOAuthProvider clientId="114463867236-ld2p6ngrvimrkdl47v11cgi6sksom583.apps.googleusercontent.com">
               <GoogleLogin onSuccess={handleLoginGoogleSuccess} />;
             </GoogleOAuthProvider>
