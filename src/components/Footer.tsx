@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="flex flex-col gap-y-4">
         <p className="primary-copy">Connect with us</p>
         <div className="flex gap-x-4">
-          <img src="../public/assets/icon_facebook.png" alt="" />
+          <img src="./public/assets/icon_facebook.png" alt="" />
           <img src="../public/assets/icon_instagram.png" alt="" />
           <img src="../public/assets/icon_twitter.png" alt="" />
           <img src="../public/assets/icon_mail.png" alt="" />
