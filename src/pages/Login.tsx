@@ -63,7 +63,7 @@ export default function Login() {
   return (
     <div className="flex items-center  justify-end  mx-auto md:h-screen  lg:py-0">
       <img
-        src="./public/assets/bg-login.png"
+        src="/assets/bg-login.png"
         className="w-2/3 saturate-[200%] contrast-[110%] brightness-[70%] "
       />
       <div className="form p-7s rounded-xl w-1/3">
