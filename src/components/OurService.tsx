@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function OurService() {
   return (
     <section className=" Our-service mt-[100px] grid grid-cols-2 items-center justify-around ">

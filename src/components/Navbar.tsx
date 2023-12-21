@@ -5,7 +5,7 @@ import {
   MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
 import { Dropdown } from "flowbite-react";
-import React from "react";
+
 import { Link } from "react-router-dom";
 
 interface NavbarProps {

@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function CtaBanner() {
   return (
     <section className="CTA-banner mt-[100px] mx-[136px] grid bg-blue-700 px-[270px] py-16 gap-y-4 rounded-[13px]">

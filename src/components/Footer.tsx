@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Footer() {
   return (
     <section className="Footer my-[100px] mx-[136px] grid grid-cols-4 ">

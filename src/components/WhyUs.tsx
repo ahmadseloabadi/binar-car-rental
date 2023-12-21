@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function WhyUs() {
   return (
     <section className="Why-us mt-[100px] md:justify-around grid lg:mx-[136px] lg:justify-start ">
