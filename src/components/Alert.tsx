@@ -9,7 +9,7 @@ export default function Alert({ onConfirm, onCancel }: AlertProps) {
       <div className="bg-white p-8 rounded-[4px] w-96">
         <div className="flex flex-col w-full items-center gap-6">
           <img
-            src="../public/assets/img-BeepBeep.png"
+            src=" /assets/img-BeepBeep.png"
             className=" h-[121px] w-[153px]"
           />
           <p className="text-lg font-semibold mb-4">Menghapus Data Mobil</p>

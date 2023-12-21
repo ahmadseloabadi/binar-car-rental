@@ -73,7 +73,7 @@ export default function Hero() {
             </button>
           </Link>
         </div>
-        <img src="../public/assets/img_car.png" alt="" />
+        <img src=" /assets/img_car.png" alt="" />
       </div>
     </section>
   );

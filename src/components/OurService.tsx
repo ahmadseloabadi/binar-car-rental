@@ -2,7 +2,7 @@ export default function OurService() {
   return (
     <section className=" Our-service mt-[100px] grid grid-cols-2 items-center justify-around ">
       <div className="flex justify-around">
-        <img src="../public/assets/img_service.png" alt="" />
+        <img src=" /assets/img_service.png" alt="" />
       </div>
       <div className="flex flex-col gap-y-6">
         <h2 className="medium-header w-[468px]">
@@ -17,23 +17,23 @@ export default function OurService() {
           </p>
 
           <p className="primary-copy inline-flex items-center gap-x-5">
-            <img src="../public/assets/icon_check.png" alt="" />
+            <img src=" /assets/icon_check.png" alt="" />
             Sewa Mobil Dengan Supir di Bali 12 Jam
           </p>
           <p className="primary-copy inline-flex items-center gap-x-5">
-            <img src="../public/assets/icon_check.png" alt="" />
+            <img src=" /assets/icon_check.png" alt="" />
             Sewa Mobil Lepas Kunci di Bali 24 Jam{" "}
           </p>
           <p className="primary-copy inline-flex items-center gap-x-5">
-            <img src="../public/assets/icon_check.png" alt="" />
+            <img src=" /assets/icon_check.png" alt="" />
             Sewa Mobil Jangka Panjang Bulanan{" "}
           </p>
           <p className="primary-copy inline-flex items-center gap-x-5">
-            <img src="../public/assets/icon_check.png" alt="" />
+            <img src=" /assets/icon_check.png" alt="" />
             Gratis Antar - Jemput Mobil di Bandara{" "}
           </p>
           <p className="primary-copy inline-flex items-center gap-x-5">
-            <img src="../public/assets/icon_check.png" alt="" />
+            <img src=" /assets/icon_check.png" alt="" />
             Layanan Airport Transfer / Drop In Out{" "}
           </p>
         </div>

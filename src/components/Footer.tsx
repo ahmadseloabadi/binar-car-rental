@@ -18,10 +18,10 @@ export default function Footer() {
         <p className="primary-copy">Connect with us</p>
         <div className="flex gap-x-4">
           <img src="./public/assets/icon_facebook.png" alt="" />
-          <img src="../public/assets/icon_instagram.png" alt="" />
-          <img src="../public/assets/icon_twitter.png" alt="" />
-          <img src="../public/assets/icon_mail.png" alt="" />
-          <img src="../public/assets/icon_twitch.png" alt="" />
+          <img src=" /assets/icon_instagram.png" alt="" />
+          <img src=" /assets/icon_twitter.png" alt="" />
+          <img src=" /assets/icon_mail.png" alt="" />
+          <img src=" /assets/icon_twitch.png" alt="" />
         </div>
       </div>
       <div className="flex flex-col gap-y-4">
