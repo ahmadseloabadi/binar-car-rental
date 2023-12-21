@@ -7,7 +7,7 @@ interface SidebarProps {
   toggleSidebar: () => void;
 }
 
-export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
+export default function Sidebar({ isOpen }: SidebarProps) {
   const location = useLocation();
   return (
     <div

@@ -1,10 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  ClockIcon,
-  PencilSquareIcon,
-  PlusIcon,
-  TrashIcon,
-} from "@heroicons/react/24/outline";
+
 import { Link } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
@@ -45,7 +40,7 @@ export default function Dashboard() {
   const [carToDelete, setCarToDelete] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(5); // Sesuaikan dengan kebutuhan Anda
+  const [pageSize] = useState(5); // Sesuaikan dengan kebutuhan Anda
   const [totalItems, setTotalItems] = useState(0);
   const totalPages = Math.ceil(totalItems / pageSize);
   const toggleSidebar = () => {

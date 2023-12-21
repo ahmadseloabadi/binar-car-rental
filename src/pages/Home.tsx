@@ -45,7 +45,7 @@ export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [filteredSize, setFilteredSize] = useState(String);
   const [currentPage, setCurrentPage] = useState(1);
-  const [pageSize, setPageSize] = useState(10);
+  const [pageSize] = useState(10);
   const [totalItems, setTotalItems] = useState(0);
   const totalPages = Math.ceil(totalItems / pageSize);
   console.log("totalItems from query :", totalItems);
