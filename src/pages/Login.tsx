@@ -138,7 +138,7 @@ export default function Login() {
                 if (response.status !== 200) {
                   alert("error: " + responseJson.message);
                 }
-                console.log("ini responejson :", responseJson);
+                console.log("ini responsejson :", responseJson);
                 localStorage.setItem(
                   "access_token",
                   responseJson.data.access_token
@@ -150,6 +150,9 @@ export default function Login() {
               }}
             >
               Sign In
+            </button>
+            <button className="shadow bg-blue-900 hover:bg-blue-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-3 rounded w-[370px] ">
+              Home Page
             </button>
             <GoogleOAuthProvider clientId="114463867236-ld2p6ngrvimrkdl47v11cgi6sksom583.apps.googleusercontent.com">
               <GoogleLogin onSuccess={handleLoginGoogleSuccess} />;
