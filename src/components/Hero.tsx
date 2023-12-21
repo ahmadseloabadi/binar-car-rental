@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 
 export default function Hero() {
@@ -74,7 +73,7 @@ export default function Hero() {
             </button>
           </Link>
         </div>
-        <img src="../src/assets/img_car.png" alt="" />
+        <img src="../public/assets/img_car.png" alt="" />
       </div>
     </section>
   );
