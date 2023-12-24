@@ -5,7 +5,8 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import { Select } from "antd";
 
-const tweets_api_base_url = "http://localhost:8000";
+const tweets_api_base_url =
+  "https://binar-car-rental-be-production.up.railway.app";
 
 export default function UpdateCar() {
   const navigate = useNavigate();
