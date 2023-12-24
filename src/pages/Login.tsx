@@ -11,7 +11,8 @@ interface DecodedToken {
   picture: string; // Adjust this property based on the actual structure of the decoded token
   // Add other properties as needed
 }
-const cars_api_base_url = "http://localhost:8000";
+const cars_api_base_url =
+  "https://binar-car-rental-be-production.up.railway.app";
 
 export default function Login() {
   const navigate = useNavigate();
