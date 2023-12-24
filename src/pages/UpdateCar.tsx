@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import { Select } from "antd";
 
-const tweets_api_base_url =
+const cars_api_base_url =
   "https://binar-car-rental-be-production.up.railway.app";
 
 export default function UpdateCar() {
@@ -187,7 +187,7 @@ export default function UpdateCar() {
                   }
 
                   const response = await fetch(
-                    tweets_api_base_url + "/api/cars/" + carId,
+                    cars_api_base_url + "/api/cars/" + carId,
                     {
                       method: "PATCH",
                       headers: {
